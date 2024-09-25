@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Los forrajes y aforos de pradera**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF2_72310027_ALIMENTACION_BOVINA/#/](https://ecored-sena.github.io/CF2_72310027_ALIMENTACION_BOVINA/#/)
 
 #
 

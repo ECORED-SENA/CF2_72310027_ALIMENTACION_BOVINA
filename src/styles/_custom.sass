@@ -2,14 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    left: 17%
+    bottom: 22%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 22%
+    right: 5%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    right: 6%
+    bottom: 10%
 
 @keyframes float1
   0%
@@ -18,3 +22,212 @@
   100%
     transform: translateY(0px)
 
+.banner-interno
+  height: 150px
+  .banner-interno__fondo
+    background-position: right top
+    background-image: url(../assets/curso/fondo_tema.png) !important
+
+//Banners
+.banner-principal__row
+  .banner-principal__img
+    padding-top: 1.7rem !important
+    padding-bottom: 1.7rem !important
+    img
+      margin-left: auto
+      max-width: 435px
+.banner-principal .tarjeta
+  background-position: inherit
+  @media screen and (max-width: $bp-max-md)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
+
+//colores
+.fondo-color-secundario
+  background-color: $color-secundario
+.fondo-color-sistema-h
+  background-color: $color-sistema-h
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-sistema-o
+  background-color: $color-sistema-o
+
+//bordes
+.no-borde
+  border: none !important
+.borde-4
+  border-radius: 4px
+.borde-8
+  border-radius: 8px
+.borde-9
+  border-radius: 9px
+.borde-10
+  border-radius: 10px
+.borde-11
+  border-radius: 11px
+.borde-12
+  border-radius: 12px
+.borde-14
+  border-radius: 14px
+.borde-15
+  border-radius: 15px
+.borde-16
+  border-radius: 16px
+.borde-17
+  border-radius: 17px
+.borde-18
+  border-radius: 18px
+.borde-20
+  border-radius: 20px
+.borde-22
+  border-radius: 22px
+.borde-23
+  border-radius: 23px
+.borde-30
+  border-radius: 30px
+.borde-31
+  border-radius: 31px
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.pos-bottom
+    &:before
+      background-position: bottom
+  &.size-full
+    &:before
+      background-size: 100%
+    &.med
+      @media screen and (max-width: $bp-max-md)
+        &:before
+          background-size: cover
+  &.pos-center
+    &:before
+      background-position: center
+  &.f1
+    &:before
+      background-color: $color-sistema-m
+      border-radius: 14px
+      top: 15%
+      bottom: 15%
+  &.f2
+    &:before
+      background-image: url(../assets/curso/temas/9.png)
+  &.f3
+    &:before
+      background-image: url(../assets/curso/temas/16.png)
+  &.f4
+    &:before
+      background-image: url(../assets/curso/temas/24.png)
+  &.f5
+    &:before
+      background-image: url(../assets/curso/temas/40.png)
+  &__contenido
+    position: relative
+
+//titulos
+.texto-p-1
+  font-size: 30px
+  font-weight: bold
+
+.titulo-decorativo
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 0.7rem
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-secundario
+    top: 18px
+    bottom: 0px
+    left: 0px
+    right: 0
+    z-index: 0
+    border-radius: 4px
+  .cont-text 
+    position: relative
+    h3
+      margin: 0
+      margin-left: 0.5rem
+      margin-right: 1.5rem
+      padding-bottom: 0.5rem
+      padding-top: 1rem
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+
+  .cont-figura
+    position: relative
+    img
+      max-width: 54px
+      min-width: 54px
+
+//slyders
+.slider-personalizado-1
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    i
+      color: $white !important
+    &:before
+      content: ""
+      background-color: $color-acento-botones
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1.2rem
+      color: $white
+
+//sombras
+.sombra-p-1
+  -webkit-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+  -moz-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+  box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)

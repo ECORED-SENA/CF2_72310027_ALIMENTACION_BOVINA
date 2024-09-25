@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Los forrajes y aforos de pradera',
+    descripcionCurso:
+      'El componente formativo describe los forrajes, su clasificación, valor nutricional y uso en la alimentación animal. Aborda tipos de pastos y leguminosas, así como el aforo de praderas para medir la producción forrajera. También explica el suministro de forraje, factores agroecológicos que afectan su crecimiento, y la importancia de una correcta gestión para mantener la salud y productividad en sistemas ganaderos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,37 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Forrajes',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tipos de pastos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Aforo de pastos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Métodos de aforo por doble muestreo',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Método de zigzag o aforo en Z para recorrido del lote',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Método en X o en cruz para el recorrido del lote',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,31 +116,117 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Forrajes',
+      referencia:
+        'Agrotendencia. (2021). Producción de pastos y forrajes en 2 minutos. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Rp8HhwNaZ6s',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Tipos de pastos',
+      referencia:
+        'Aprendizaje Ganadero SL (2023).Top 5 pastos para tu ganadería. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=KS8Fq3oq7_A',
+    },
+    {
+      tema: 'Aforo de pastos',
+      referencia:
+        'Omar Augusto Losada Hurtado (2020). AFORO DE PRADERAS Y CARGA ANIMAL. TUTORIAL. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=a1ZPgVGryDc',
+    },
+    {
+      tema: 'Métodos de aforo por doble muestreo',
+      referencia:
+        'Vladimir Sánchez M. (2018). Aforo de un potrero o Prueba de Disponibilidad de Forraje.  [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=dwcA2StqHF0',
+    },
+    {
+      tema: 'Método de zigzag o aforo en Z para recorrido del lote',
+      referencia:
+        'Rua, M. (2015). <em>Cómo aforar un potrero</em>. BM Editores. jairocairo.com, Cultura Empresarial Ganadera.',
+      tipo: 'Articulo',
+      link:
+        'https://www.produccion-animal.com.ar/produccion_y_manejo_pasturas/pastoreo%20sistemas/192-Como_aforar.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Aforo de pastos',
+      significado:
+        'técnica utilizada para medir la cantidad de pasto disponible en una pradera a través de muestreo en áreas definidas.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Banco forrajero',
+      significado:
+        'área de la finca destinada a la producción de forrajes de alta calidad para ser utilizados en épocas de escasez.',
+    },
+    {
+      termino: 'Carbohidratos',
+      significado:
+        'compuestos presentes en gran cantidad en los forrajes que proporcionan energía a los rumiantes.',
+    },
+    {
+      termino: 'Digestibilidad',
+      significado:
+        'capacidad de los forrajes de ser descompuestos y absorbidos en el sistema digestivo de los rumiantes, afectando la calidad nutricional del alimento.',
+    },
+    {
+      termino: 'Floración',
+      significado:
+        'etapa de crecimiento de las plantas en la que se producen flores; en los forrajes, esto puede reducir su valor nutricional.',
+    },
+    {
+      termino: 'Forrajes',
+      significado:
+        'alimento vegetal utilizado en la alimentación de rumiantes, compuesto principalmente por pastos y leguminosas.',
+    },
+    {
+      termino: 'Forrajes secos',
+      significado:
+        'forrajes que han sido cortados y secados, como el heno o los residuos de cosecha.',
+    },
+    {
+      termino: 'Macroelementos',
+      significado:
+        'minerales presentes en los forrajes en grandes cantidades, como el calcio, fósforo y potasio, que son esenciales para el crecimiento animal.',
+    },
+    {
+      termino: 'Microelementos',
+      significado:
+        'minerales presentes en los forrajes en pequeñas cantidades, como el cobre y el hierro, necesarios para el metabolismo animal.',
+    },
+    {
+      termino: 'Pasto rústico',
+      significado:
+        'pasto que ha sido mejorado genéticamente para resistir condiciones adversas, como plagas o sequía, sin necesidad de muchos aportes externos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'FAO. (2014). Capítulo VI cultivos para heno - leguminosas forrajeras y legumbres.',
+      link: 'http://www.fao.org/docrep/007/x7660s/x7660s0a.htm',
+    },
+    {
+      referencia: 'Fondo Ganadero de Honduras (s.f.). Manejo de praderas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pozzolo, O. (2007). Cosecha de Forrajes. Argentina: Universidad Nacional de Entre Ríos.',
+      link: '',
+    },
+    {
+      referencia:
+        'Rúa, M. (2010). Cómo aforar un potrero para pastorear correctamente. Argentina: Cultura empresarial ganadera.',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad Nacional Abierta y a Distancia. (s.f.). Manejo de praderas y pastos.',
       link: '',
     },
   ],

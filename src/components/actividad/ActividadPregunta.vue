@@ -97,6 +97,7 @@ img
 .tarjeta--pregunta
   background: #dce4eb
 .tarjeta-respuesta
+  background-color: white
   border: 2px solid transparent
   cursor: pointer
   transition: border-color 0.2s
