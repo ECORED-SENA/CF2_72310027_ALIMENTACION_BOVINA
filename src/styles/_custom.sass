@@ -62,12 +62,20 @@
   background-color: $color-sistema-n
 .fondo-color-sistema-o
   background-color: $color-sistema-o
+.fondo-color-sistema-p
+  background-color: $color-sistema-p
+.c-color-secundario
+  color: $color-secundario
+.c-color-acento-contenido
+  color: $color-acento-contenido
 
 //bordes
 .no-borde
   border: none !important
 .borde-4
   border-radius: 4px
+.borde-6
+  border-radius: 6px
 .borde-8
   border-radius: 8px
 .borde-9
@@ -145,6 +153,18 @@
   &.pos-center
     &:before
       background-position: center
+  &.top-1
+    &:before
+      top: 40%
+  &.top-2
+    &:before
+      top: 50px
+  &.top-3
+    &:before
+      top: 35px
+  &.bottom-1
+    &:before
+      bottom: 35px
   &.f1
     &:before
       background-color: $color-sistema-m
@@ -163,6 +183,13 @@
   &.f5
     &:before
       background-image: url(../assets/curso/temas/40.png)
+  &.f7
+    &:before
+      background-image: url(../assets/curso/temas/57.png)
+  &.f6
+    &:before
+      background: rgb(239,250,244)
+      background: linear-gradient(180deg, rgba(239,250,244,0) 0%, rgba(239,250,244,1) 25%, rgba(239,250,244,1) 75%, rgba(239,250,244,0) 100%)
   &__contenido
     position: relative
 
@@ -231,3 +258,117 @@
   -webkit-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
   -moz-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
   box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+
+//tarjetas
+.tarjeta-p-1
+  border-radius: 15px
+  border-color: $color-secundario
+  background-color: $color-sistema-q
+  border-width: 3px
+  .row
+    .col-auto
+      align-self: flex-start
+  .tarjeta-audio__texto
+    font-style: normal !important
+    margin-bottom: 2.5rem !important
+  .audio__btn
+    background-color: $color-sistema-r !important
+  .tarjeta-audio__tiempo
+    span
+      font-weight: normal
+      &:last-child
+        margin-right: -2rem
+  .tarjeta-audio__input
+    margin-right: -2rem
+    input[type=range]
+      background: #FF7C32
+      background-image: linear-gradient(#CC6328, #CC6328)
+      &::-webkit-slider-thumb
+        background: #CC6328
+      &::-moz-range-thumb
+        background: #CC6328
+
+//tabla
+.tabla-p-1
+  td
+    padding: 1.5rem
+
+//acordion
+.acordion-personalizado-1
+  .tarjeta
+    .acordion__header
+      margin-bottom: 0.7rem !important
+    padding-right: 1rem !important
+    padding-left: 1rem !important
+    padding-top: 0.7rem !important
+    border-radius: 10px
+    background-color: $color-sistema-j
+    &.acordion__activo
+      background-color: $color-sistema-k
+  .acordion__accion__btn--a
+    width: 50px
+    height: 50px
+    background-color: $color-acento-botones !important
+    color: $white
+
+//pasos
+.pasos-personalizado-1
+  .pasos-b__header__item__line-container
+    order: 1
+    margin-bottom: 0
+  .pasos-b__header__item__tittle
+    margin-bottom: 10px
+  .pasos-b__header__item:first-child
+    .pasos-b__header__item__line-container:before
+      background-color: transparent
+  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+    background-color: #CCCCCC
+  .pasos-b__header__item--before
+    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+      background-color: #FF8F0E
+    .pasos-b__header__item__dot
+      background-color: transparent
+      border: 3px solid #FF8F0E
+      i
+        display: none
+  .pasos-b__header__item--active
+    .pasos-b__header__item__dot
+      background-color: $white
+      border-color: #FF8F0E
+      align-content: center
+      &:before
+        content: ""
+        width: 10px
+        height: 10px
+        background-color: #FF8F0E
+        display: flex
+        border-radius: 50%
+        margin: auto
+    .pasos-b__header__item__line-container:before
+      background-color: #FF8F0E
+  .pasos-b__header__item__dot
+    min-width: 22px
+    min-height: 22px
+    max-width: 22px
+    max-height: 22px
+    background-color: white
+    span
+      display: none
+  .pasos-b__header__btn--right,.pasos-b__header__btn--left
+    background-color: $color-acento-botones
+    color: white
+
+//tabs
+.tabs-p-1
+  border-bottom: none
+  .tabs-b__tab--active
+    background-color: transparent !important
+  .tabs-b__tab
+    border-bottom: none
+    background-color: #F2F4F5
+
+.bloque-texto-p-1
+  .bloque-texto-g__texto
+    width: 70%
+    @media (max-width: 992px)
+      width: 100%
