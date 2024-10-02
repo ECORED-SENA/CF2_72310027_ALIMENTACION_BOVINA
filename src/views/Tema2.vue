@@ -137,7 +137,7 @@
                   figure.mb-4.mb-md-0
                     img.mx-auto(src="@/assets/curso/temas/47.svg",style="max-width: 85px;")
                 .col
-                  p.mb-0 En suelos fértiles, se recomienda sembrar guinea y #[em marandú].
+                  p.mb-0 En suelos fértiles, se recomienda sembrar guinea y marandú.
             .fondo-color-sistema-j.borde-11.p-2.px-3.mb-2
               .row.align-items-center
                 .col-md-auto
@@ -165,7 +165,7 @@
                   figure.mb-4.mb-md-0
                     img.mx-auto(src="@/assets/curso/temas/51.svg",style="max-width: 85px;")
                 .col
-                  p.mb-0 Si hay problemas por insectos como el salivazo, se recomienda usar #[em andropogon] y pasto #[em marandú].
+                  p.mb-0 Si hay problemas por insectos como el salivazo, se recomienda usar #[em andropogon] y pasto marandú.
           .col-lg-4
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/52.png",style="max-width: 400px;")
@@ -197,11 +197,11 @@
             .fondo-color-sistema-j.p-3.borde-6.mb-2
               .d-flex.align-items-center
                 i.fas.fa-circle.c-color-acento-contenido
-                p.mb-0.ms-2 Pampa verde, #[em indú, camerún y king grass].
+                p.mb-0.ms-2 Pampa verde, indú, camerún y #[em king grass].
             .fondo-color-sistema-j.p-3.borde-6
               .d-flex.align-items-center
                 i.fas.fa-circle.c-color-acento-contenido
-                p.mb-0.ms-2 Pasto imperial, morado, #[em taiwan, gramalote, maralfalfa, brasil] y cuba 22.
+                p.mb-0.ms-2 Pasto imperial, morado, taiwan, gramalote, maralfalfa, brasil y cuba 22.
 
         .row.align-items-center(data-aos="fade-down")
           .col-md-auto.d-none.d-lg-block
@@ -235,7 +235,7 @@
                   .d-flex.align-items-center
                     img.me-2(src="@/assets/curso/temas/55.svg",style="max-width: 16px;")
                     span #[b Nombre común]: Elefante o pasto napier
-              p Este pasto es de origen africano y tiene la característica de crecer de manera recta, alcanzando alturas de 1.8 a 2 metros. En la etapa de mayor crecimiento se desarrollan los tallos y hojas. La madurez en la cosecha está determinada por la región y la época, con una producción que oscila entre 60 y 90 toneladas de pasto por hectárea. 
+              p Este pasto es de origen africano y tiene la característica de crecer de manera recta, alcanzando alturas de 1,8 a 2 metros. En la etapa de mayor crecimiento se desarrollan los tallos y hojas. La madurez en la cosecha está determinada por la región y la época, con una producción que oscila entre 60 y 90 toneladas de pasto por hectárea. 
           .div(titulo="Sorgo o mijo")
             .ps-md-5.ms-md-3
               ul.lista-ul
@@ -256,7 +256,7 @@
                     img.me-2(src="@/assets/curso/temas/55.svg",style="max-width: 16px;")
                     span #[b Nombre común]: Sorgo, mijo (perla), indú o camerún 
 
-              p Este pasto crece de 1.5 a 2 metros de altura, con un buen desarrollo de follaje, y se adapta bien a alturas de 1.800 m.s.n.m. a 2.500 m.s.n.m. Es de fácil digestión para los rumiantes, con un alto contenido de carbohidratos solubles en el rumen, principalmente azúcares simples. La producción oscila entre 50 y 80 toneladas de forraje por hectárea.
+              p Este pasto crece de 1,5 a 2 metros de altura, con un buen desarrollo de follaje, y se adapta bien a alturas de 1.800 m.s.n.m. a 2.500 m.s.n.m. Es de fácil digestión para los rumiantes, con un alto contenido de carbohidratos solubles en el rumen, principalmente azúcares simples. La producción oscila entre 50 y 80 toneladas de forraje por hectárea.
           .div(titulo="Pasto <em>king grass</em>")
             .ps-md-5.ms-md-3
               ul.lista-ul
@@ -301,7 +301,7 @@
                     img.me-2(src="@/assets/curso/temas/55.svg",style="max-width: 16px;")
                     span #[b Nombre común]: Maralfalfa
 
-              p Este pasto se cultiva a alturas de 0 m.s.n.m. hasta 3.000 m.s.n.m. Al ser un híbrido, puede alcanzar de 1.5 a 2.2 metros de altura. Su primer corte se realiza a los 90 días y, una vez establecido el cultivo, su producción se estima entre 50 y 120 toneladas de pasto fresco por hectárea. Es importante tener precaución con la floración precoz, que puede afectar el rendimiento y la calidad nutricional del cultivo.
+              p Este pasto se cultiva a alturas de 0 m.s.n.m. hasta 3.000 m.s.n.m. Al ser un híbrido, puede alcanzar de 1,5 a 2,2 metros de altura. Su primer corte se realiza a los 90 días y, una vez establecido el cultivo, su producción se estima entre 50 y 120 toneladas de pasto fresco por hectárea. Es importante tener precaución con la floración precoz, que puede afectar el rendimiento y la calidad nutricional del cultivo.
           .div(titulo="Pasto imperial")
             .ps-md-5.ms-md-3
               ul.lista-ul
@@ -369,7 +369,7 @@
             .row.justify-content-center.pt-lg-4(titulo="")
               .col-lg-6.mb-4.mb-lg-0
                 h4.mb-5 Pérdida de calidad durante la floración
-                p.mb-0.me-lg-4 Los pastos pierden un 30% de su calidad nutricional al comenzar la floración debido a la lignificación, lo que reduce su digestibilidad.
+                p.mb-0.me-lg-4 Los pastos pierden un 30 % de su calidad nutricional al comenzar la floración debido a la lignificación, lo que reduce su digestibilidad.
               .col-lg-5
                 figure
                   img.mx-auto(src="@/assets/curso/temas/62.png",style="max-width: 419px;")
@@ -383,7 +383,7 @@
             .row.justify-content-center.pt-lg-4(titulo="")
               .col-lg-6.mb-4.mb-lg-0
                 h4.mb-5 Forrajes y concentrados
-                p.mb-0.me-lg-4 Ningún forraje cubre el 100% de los requerimientos nutricionales del ganado, pero tampoco se puede reemplazar completamente el forraje por concentrados.
+                p.mb-0.me-lg-4 Ningún forraje cubre el 100 % de los requerimientos nutricionales del ganado, pero tampoco se puede reemplazar completamente el forraje por concentrados.
               .col-lg-5
                 figure
                   img.mx-auto(src="@/assets/curso/temas/64.png",style="max-width: 419px;")

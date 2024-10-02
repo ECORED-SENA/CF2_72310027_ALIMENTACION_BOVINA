@@ -242,25 +242,25 @@
               img.mx-auto(src="@/assets/curso/temas/28.svg",style="max-width: 91px;")
             .text-center.mb-4
               h4.fondo-color-secundario.px-4.d-inline-flex.mb-0 Calcio
-            p.text-center Se encuentra en forrajes entre 0,3% y 2,5%, más abundante en plantas jóvenes y leguminosas. Es esencial para la fijación de nitrógeno.
+            p.text-center Se encuentra en forrajes entre 0,3 % y 2,5 %, más abundante en plantas jóvenes y leguminosas. Es esencial para la fijación de nitrógeno.
           .bg-white.p-4.h-100.borde-18.sombra-p-1
             figure.mb-4
               img.mx-auto(src="@/assets/curso/temas/29.svg",style="max-width: 91px;")
             .text-center.mb-4
               h4.fondo-color-secundario.px-4.d-inline-flex.mb-0 Fósforo
-            p.text-center Contenido entre 0,1% y 0,5% en hojas y tallos, favorece el desarrollo radicular y la supervivencia de la planta.
+            p.text-center Contenido entre 0,1 % y 0,5 % en hojas y tallos, favorece el desarrollo radicular y la supervivencia de la planta.
           .bg-white.p-4.h-100.borde-18.sombra-p-1
             figure.mb-4
               img.mx-auto(src="@/assets/curso/temas/30.svg",style="max-width: 91px;")
             .text-center.mb-4
               h4.fondo-color-secundario.px-4.d-inline-flex.mb-0 Potasio
-            p.text-center Se encuentra entre 1% y 4%, disminuyendo con la madurez de la planta. Mayor en leguminosas; su ingesta puede tener un efecto laxante.
+            p.text-center Se encuentra entre 1 % y 4 %, disminuyendo con la madurez de la planta. Mayor en leguminosas; su ingesta puede tener un efecto laxante.
           .bg-white.p-4.h-100.borde-18.sombra-p-1
             figure.mb-4
               img.mx-auto(src="@/assets/curso/temas/31.svg",style="max-width: 91px;")
             .text-center.mb-4
               h4.fondo-color-secundario.px-4.d-inline-flex.mb-0 Magnesio
-            p.text-center Varía entre 0,1% y 0,7% en forrajes. Deficiencia puede causar hipomagnesemia en rumiantes, clave para el metabolismo de carbohidratos.
+            p.text-center Varía entre 0,1 % y 0,7 % en forrajes. La deficiencia puede causar hipomagnesemia en rumiantes, clave para el metabolismo de carbohidratos.
           .bg-white.p-4.h-100.borde-18.sombra-p-1
             figure.mb-4
               img.mx-auto(src="@/assets/curso/temas/32.svg",style="max-width: 91px;")
@@ -272,7 +272,7 @@
               img.mx-auto(src="@/assets/curso/temas/33.svg",style="max-width: 91px;")
             .text-center.mb-4
               h4.fondo-color-secundario.px-4.d-inline-flex.mb-0 Azufre
-            p.text-center Contenido entre 0,1% y 0,4%, utilizado por los microorganismos del rumen para sintetizar proteínas.
+            p.text-center Contenido entre 0,1 % y 0,4 %, utilizado por los microorganismos del rumen para sintetizar proteínas.
           .bg-white.p-4.h-100.borde-18.sombra-p-1
             figure.mb-4
               img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 91px;")

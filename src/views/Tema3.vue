@@ -77,7 +77,7 @@
             figure
               img.mx-auto(src="@/assets/curso/temas/1.svg",style="max-width: 85px;")
           .col
-            p.mb-0 Supongamos que quien realiza el aforo clasifica el pasto en dos alturas de crecimiento: pasto alto y pasto bajo. Si observa que predomina el pasto bajo, otorgándole una calificación del 90%, y al pasto alto un 10%, esto implica que el pasto alto representa solo el 10% de la población, mientras que el 90% restante es pasto bajo. El evaluador toma 10 muestras, obteniendo los siguientes resultados: 1.0, 1.3, 1.0, 1.1, 1.1, 1.2, 1.5, 1.5, 4.5, 5.0. Para ponderarlos, se ordenan de la siguiente manera:
+            p.mb-0 Supongamos que quien realiza el aforo clasifica el pasto en dos alturas de crecimiento: pasto alto y pasto bajo. Si observa que predomina el pasto bajo, otorgándole una calificación del 90 %, y al pasto alto un 10 %, esto implica que el pasto alto representa solo el 10 % de la población, mientras que el 90 % restante es pasto bajo. El evaluador toma 10 muestras, obteniendo los siguientes resultados: 1.0, 1.3, 1.0, 1.1, 1.1, 1.2, 1.5, 1.5, 4.5, 5.0. Para ponderarlos, se ordenan de la siguiente manera:
       .col-lg-4
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/74.png",style="max-width: 400px;")
@@ -152,15 +152,15 @@
         .fondo-color-sistema-o.p-4.borde-6.mb-2
           .d-flex
             .fas.fa-circle.c-color-acento-contenido.me-2
-            p.mb-0 Se tienen 8 submuestras con un peso total de 9.7 kg, representando el 90% de la población.
+            p.mb-0 Se tienen 8 submuestras con un peso total de 9.7 kg, representando el 90 % de la población.
         .fondo-color-sistema-j.p-4.borde-6.mb-2
           .d-flex
             .fas.fa-circle.c-color-acento-contenido.me-2
-            p.mb-0 El promedio ponderado de estas submuestras es: 9.7 kg ÷ 8 submuestras = 1.2125  kg × 90% = 1.091  kg.
+            p.mb-0 El promedio ponderado de estas submuestras es: 9.7 kg ÷ 8 submuestras = 1.2125  kg × 90 % = 1.091  kg.
         .fondo-color-sistema-o.p-4.borde-6.mb-2
           .d-flex
             .fas.fa-circle.c-color-acento-contenido.me-2
-            p.mb-0 También hay 2 submuestras con un peso total de 9.5 kg, representando el 10% de la población. El promedio ponderado de estas submuestras es: 9.5 kg ÷ 2 submuestras = 4.75 kg × 10% = 0.475 kg.
+            p.mb-0 También hay 2 submuestras con un peso total de 9.5 kg, representando el 10 % de la población. El promedio ponderado de estas submuestras es: 9.5 kg ÷ 2 submuestras = 4.75 kg × 10 % = 0.475 kg.
         .fondo-color-sistema-j.p-4.borde-6.mb-2
           .d-flex
             .fas.fa-circle.c-color-acento-contenido.me-2

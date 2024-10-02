@@ -218,7 +218,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Pierden un 30% de su valor nutricional.',
+              texto: 'Pierden un 30 % de su valor nutricional.',
               esCorrecta: true,
             },
             {
