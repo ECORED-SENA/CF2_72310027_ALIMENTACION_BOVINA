@@ -35,7 +35,7 @@
                   p.mb-4.text-white Lo invitamos a escuchar el siguiente Pódcast:
                   TarjetaAudio.tarjeta-p-1(
                     texto="Tipos de pastos"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/componentes/audios/pastos.mp3')"
                     tiempo
                   )
           .col-lg-5.order-first.order-lg-last(data-aos="fade-bottom")
