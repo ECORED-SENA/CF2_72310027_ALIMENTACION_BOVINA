@@ -21,7 +21,7 @@
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/41.png",style="max-width: 400px;")
         
-        p.mb-5(data-aos="fade-top") Los invitamos a escuchar el podcast, donde hablaremos sobre la importancia de los pastos en la ganadería, por qué son una fuente esencial de alimentación para el ganado y cómo factores como el suelo, el clima y el manejo pueden afectar su producción.
+        p.mb-5(data-aos="fade-top") Los invitamos a escuchar el #[i podcast], donde hablaremos sobre la importancia de los pastos en la ganadería, por qué son una fuente esencial de alimentación para el ganado y cómo factores como el suelo, el clima y el manejo pueden afectar su producción.
 
         .row.align-items-center
           .col-lg-7(data-aos="fade-top")
@@ -208,7 +208,7 @@
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 85px;")
           .col
-            p.mb-0 A continuación se describen las características específicas de los diferentes tipos de pastos de corte:
+            p.mb-0 A continuación, se describen las características específicas de los diferentes tipos de pastos de corte:
     
     .row
       .col-lg-3

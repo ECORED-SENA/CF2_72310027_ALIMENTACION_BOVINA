@@ -118,28 +118,28 @@ export default {
     {
       tema: 'Forrajes',
       referencia:
-        'Agrotendencia. (2021). Producción de pastos y forrajes en 2 minutos. [Archivo de video] Youtube.',
+        'Agrotendencia. (2021). Producción de pastos y forrajes en 2 minutos. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Rp8HhwNaZ6s',
     },
     {
       tema: 'Tipos de pastos',
       referencia:
-        'Aprendizaje Ganadero SL (2023).Top 5 pastos para tu ganadería. [Archivo de video] Youtube.',
+        'Aprendizaje Ganadero SL (2023).Top 5 pastos para tu ganadería. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=KS8Fq3oq7_A',
     },
     {
       tema: 'Aforo de pastos',
       referencia:
-        'Omar Augusto Losada Hurtado (2020). AFORO DE PRADERAS Y CARGA ANIMAL. TUTORIAL. [Archivo de video] Youtube.',
+        'Omar Augusto Losada Hurtado (2020). AFORO DE PRADERAS Y CARGA ANIMAL. TUTORIAL. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=a1ZPgVGryDc',
     },
     {
       tema: 'Métodos de aforo por doble muestreo',
       referencia:
-        'Vladimir Sánchez M. (2018). Aforo de un potrero o Prueba de Disponibilidad de Forraje.  [Archivo de video] Youtube.',
+        'Vladimir Sánchez M. (2018). Aforo de un potrero o Prueba de Disponibilidad de Forraje.  [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=dwcA2StqHF0',
     },
@@ -147,7 +147,7 @@ export default {
       tema: 'Método de zigzag o aforo en Z para recorrido del lote',
       referencia:
         'Rua, M. (2015). <em>Cómo aforar un potrero</em>. BM Editores. jairocairo.com, Cultura Empresarial Ganadera.',
-      tipo: 'Articulo',
+      tipo: 'Artículo',
       link:
         'https://www.produccion-animal.com.ar/produccion_y_manejo_pasturas/pastoreo%20sistemas/192-Como_aforar.pdf',
     },
